@@ -5,6 +5,12 @@
 /* GLOBAL STYLES (mobile first/small) */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
 
+@media screen and (max-width: 450px) {
+    .container {
+        max-width: 100%;
+        padding: 10px;
+    }
+
 /* Colors */
 :root {
   --teal: #4CA7C0;
